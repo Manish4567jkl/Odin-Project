@@ -1,0 +1,105 @@
+body{
+  background-color: #4d4855;
+background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+
+
+}
+  .overall{
+display: flex;
+justify-content:center;
+align-items:center;
+height: 100vh; 
+  }
+
+    .rectangle{
+      height: 400px;
+      width:882px;
+      border-radius:32px;
+      background-color: black;
+      position: absolute;
+      display:grid;
+      box-shadow:0 0 0px #E5E4E2,0 0 0px #E5E4E2,0 0 0px #E5E4E2,0 0 15px #E5E4E2;
+      transition:ease-in-out 0.5s;
+      grid-template-columns: 362px 1fr;
+    }
+    .rectangle:hover{
+      transform: scale(1.04);
+      transition:ease-in-out 0.5s;
+      box-shadow:0 0 0px #E5E4E2,0 0 0px #E5E4E2,0 0 0px #E5E4E2,0 0 15px #E5E4E2;
+    }
+  
+  .inRect{
+    height:362px;
+    width:362px;
+    background-color: #f2f2f2;
+    border-radius:30px;
+    margin-top:20px;
+    margin-bottom:15px;
+    margin-left:20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border:none;
+  }
+  
+  img{
+  
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  background-color: white;;
+   
+}
+
+.files{
+  color:#F2F2F2;
+  margin-left:100px;
+  margin-bottom:100px;
+  margin-right: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+ 
+}
+
+.pref{
+  margin-top:35px;
+  margin-right:25px;
+  font-size:23px;
+  color:#f2f2f2;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+
+.checked {
+  color: goldenrod;
+   
+}
+
+button{
+  background-color:#ffb145;
+  border:none;
+  height: 65px;
+  width:190px;
+  border-radius:10px;
+  color:black;
+  font-size:28px;
+  padding:10px 10px 10px 10px;
+  position:absolute;
+  bottom:25px;
+  right:30px;
+  font-weight: bold;
+  transition: ease-in-out 0.5s;
+}
+
+button:hover{
+  transform: scale(1.05);
+  transition: ease-in-out 0.5s;
+
+ 
+}
+
+.price{
+  font-size:28px;
+  font-weight:bold;
+  color:#f2f2f2;
+}
